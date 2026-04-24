@@ -1,6 +1,7 @@
 # ec2_monitor.py
 #
 # Copyright (C) 2011-2017 Vas Vasiliadis
+# Modified by Taleh Malikov, 24 April 2026
 # University of Chicago
 #
 # Adapted from  "Using Dynamic Registration and Dashboards
@@ -8,12 +9,11 @@
 #
 ##
 __author__ = "Vas Vasiliadis <vas@uchicago.edu>"
+__modified__ = "Taleh Malikov <tmalikov@uchicago.edu>"
 
 import boto3
 import json
-import time
 import sys
-import getopt
 import argparse
 
 # Set region
